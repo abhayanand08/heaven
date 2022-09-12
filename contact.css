@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#page1{
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)) , url("https://valor-int.com/wp-content/uploads/2020/11/chef-kzenon-shutterstock_390054868.jpg");
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    position: relative;
+}
+#menu{
+    color: white;
+    display: flex;
+}
+.leftmenu{
+    padding: 14px 0px;
+    margin: 0px 65px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+   
+    font-weight: bold;
+}
+.rightmenu{
+    padding: 45px 0px;
+    margin-left: 570px;
+        text-align: right;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(219, 219, 219);
+}
+.rightmenu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    font-size: 0.9rem;
+    font-weight:bold;
+    cursor: pointer;
+}
+.rightmenu ul a{
+    text-decoration: none;
+    color: rgb(201, 199, 199);
+}
+.rightmenu ul li:hover{
+    color: white;
+}
+.rightmenu ul li::after{
+   content: '';
+   width:0;
+   height:2px;
+   background: yellow;
+   display: block;
+   margin: auto;
+   transition:0.45s;
+}
+.rightmenu ul li:hover::after{
+    
+    width: 100%;
+}
+#contact{
+    color: white;
+}
+#contact::after{
+   width: 60px;
+   height:2px;
+   background: yellow;
+   margin: auto;
+}
+.icons{
+    color: rgb(201, 199, 199);
+    padding: 0px 30px;
+    padding-top: 45px;
+    
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.social{
+    text-decoration: none;
+    color: rgb(201, 199, 199);
+}
+.icons .fa{
+    margin-left: 10px;
+}
+.fa-facebook:hover{
+    color: white;
+}
+.fa-instagram:hover{
+    color: white;
+}
+.fa-twitter:hover{
+    color: white;
+}
+.fa-search:hover{
+    color: white;
+}
+.cont{
+    display: flex;
+}
+#owner{
+    text-align: center;
+    color:white;
+    background-color: transparent;
+    
+    width: 40%;
+    margin: 20px;
+    
+
+}
+.last{
+    margin-top: 20px;
+}
+
+#abhay{
+    width:43%;
+    height:280px;
+    border-radius: 100%;
+    border:4px solid white;
+}
+#owner h3{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: yellow;
+}
+#owner h5{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 8px;
+    font-family: 'Heebo', sans-serif;
+}
+#sup{
+    width:43%;
+    height:280px;
+    border-radius: 100%;
+    border:4px solid white;
+}
+#manager h3{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: yellow;
+}
+#manager h5{
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 8px;
+    font-family: 'Heebo', sans-serif;
+}
+#manager{
+    text-align: center;
+    color:white;
+    background-color: transparent;
+    
+    width: 40%;
+    margin: 20px 100px;
+
+}

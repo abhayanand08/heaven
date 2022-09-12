@@ -1,0 +1,15 @@
+.rightmenu{
+    padding: 45px 150px;
+    
+        text-align: right;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(219, 219, 219);
+}
+.rightmenu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight:bold;
+    cursor: pointer;
+}

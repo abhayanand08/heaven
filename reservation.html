@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Reservation
+        </title>
+        <link rel="stylesheet" type="text/css" href="reserve.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    </head>
+    <section id="page1">
+        <div id="menu" class="animate__animated animate__fadeInDown">
+            <div class="leftmenu">
+             <h1>heaven..</h1>
+            </div>
+            <div class="rightmenu">
+                <ul>
+                 <a href="index.html">
+                     <li>Home</li> 
+                 </a> 
+                 <a href="About us.html">
+                    <li>About us</li>
+                </a> 
+                <a href="menu.html">
+                    <li>Menu</li>
+                </a>
+                <a href="reservation.html">
+                    <li id="reserve">Reservation</li>
+                </a> 
+                <a href="contact.html">
+                    <li>Contacts</li>
+                </a> 
+                </ul>
+            </div>
+            <div class="icons">
+                <i class="fa fa-search"></i>
+                <a class="social" href="https://www.facebook.com/abhay.anand.52090/"><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-twitter"></i>
+                <a class="social" href="https://www.instagram.com/iamabhayanand/" > <i class="fa fa-instagram"></i></a>
+                
+            </div>
+            </div>
+            <div class="animate__animated animate__slideInDown">
+            <div class="booking">
+                <h2>Select a Date & Book Now</h2>We Will Confirm Order Via E-mail or Phone
+                <form action=" ">
+                    <label for="fname"></label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name*" required>
+                    <label for="lname"></label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name*" required><br>
+                    <label for="Email"></label>
+                    <input type="email" id="Email" name="Email" placeholder="Email Address*" required>
+                    <label for="Mnumber"></label>
+                    <input type="phone" id="Mnumber" name="Mnumber" placeholder="Phone Number"><br>
+                    <label for="dateofbook"></label>
+                    <input type="date" id="dateofbook" name="dateofbook" placeholder="dd-mm-yyyy" required>
+                    <label for="timeofbook"></label>
+                   <select id="timeofbook" name="time" required>
+                       <option value="Time">Time*</option>
+                       <option value="9:00">9:00</option>
+                       <option value="10:00">10:00</option>
+                       <option value="11:00">11:00</option>
+                       <option value="12:00">12:00</option>
+                       <option value="13:00">13:00</option>
+                       <option value="14:00">14:00</option>
+                       <option value="15:00">15:00</option>
+                       <option value="16:00">16:00</option>
+                   </select>
+                   <label for="numperson"></label>
+                   <select name="persons" id="numperson" required>
+                       <option value="Persons">Persons*</option>
+                       <option value="two">2</option>
+                       <option value="three">3</option>
+                       <option value="four">4</option>
+                       <option value="five">5</option>
+                       <option value="six">6</option>
+                       <option value="seven">7</option>
+                       <option value="eight">8</option>
+                       <option value="nine">9</option>
+                       <option value="ten">10</option>
+                   </select><br>
+                   <input type="submit" id="book" value="BOOK NOW">
+                    
+                  </form>
+                  
+            </div>
+            </div>
+            </section>
+</html>
